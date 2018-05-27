@@ -4,10 +4,9 @@ Combinaison of binary utilities
 ## Table of Contents
 
 * [Process](#Process) To kill a process
-* [Exemple](#Exemple) To a exemple
 
 
-## Kill_process
+## Process
 Create kill_process script to kill at the specific PORT number
 
 1) Run:
@@ -29,5 +28,3 @@ chmod +x kill_process (carefull)
 ```
 sudo kill_process 80
 ```
-
-## Exemple
