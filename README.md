@@ -3,8 +3,8 @@ Combinaison of binary utilities
 
 ## Table of Contents
 
-* [Listen Process](#listen process) To listen a process
-* [Kill Process](#kill process) To kill a process
+* [Listen_Process](#listen process) To listen a process
+* [Kill_Process](#kill process) To kill a process
 
 
 ## Listen Process
