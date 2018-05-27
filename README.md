@@ -3,7 +3,7 @@ Combinaison of binary utilities
 
 ## Table of Contents
 
-* [Process](#Process) To kill a process
+* [Process](#process) To kill a process
 
 
 ## Process
