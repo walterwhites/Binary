@@ -39,6 +39,10 @@ sudo listen_process
 sudo listen_process 80
 ```
 
+6) Result
+
+![Listen](listen.png)
+
 ## Kill a process
 Create kill_process script to kill at the specific PORT number
 
