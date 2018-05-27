@@ -14,15 +14,14 @@ To listen all process OR just one
 sudo /usr/local/bin/listen_process
 ```
 
-2) fill :
+2) write :
 ```
 if [ $# -eq 1 ]
 then
-        sudo lsof -i :$1
+        ps aux | grep httpd | awk '{ print "\033[31m process_name \033[0m" $11 "\033[31m id \033[0m" $2;}'
 else
-        sudo lsof -i
+        ps aux | awk '{ print "\033[31m process_name \033[0m" $11 "\033[31m id \033[0m" $2;}'
 fi
-
 ```
 
 3) Run :
