@@ -7,11 +7,11 @@ Combinaison of binary utilities
 * [Kill a process](#kill-a-process)
 
 ## Listen a process
-To listen all process OR a one at the specific port
+To listen all process OR just one
 
 1) Run:
 ```
-sudo /usr/local/bin/kill_process
+sudo /usr/local/bin/listen_process
 ```
 
 2) fill :
@@ -27,12 +27,17 @@ fi
 
 3) Run :
 ```
-chmod +x kill_process (carefull)
+chmod +x listen_process (carefull)
 ```
 
-4) Execute "sudo kill_process PORT_NUMBER" :
+4) You listen all process :
 ```
-sudo kill_process 80
+sudo listen_process
+```
+
+5) Or listen specific port number :
+```
+sudo listen_process 80
 ```
 
 ## Kill a process
