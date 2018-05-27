@@ -3,11 +3,10 @@ Combinaison of binary utilities
 
 ## Table of Contents
 
-* [Listen](#listen process) To listen a process
-* [Kill](#kill process) To kill a process
+* [Listen a process](#listen-a-process)
+* [Kill a process](#kill-a-process)
 
-
-## Listen Process
+## Listen a process
 To listen all process OR a one at the specific port
 
 1) Run:
@@ -36,7 +35,7 @@ chmod +x kill_process (carefull)
 sudo kill_process 80
 ```
 
-## Kill Process
+## Kill a process
 Create kill_process script to kill at the specific PORT number
 
 1) Run:
