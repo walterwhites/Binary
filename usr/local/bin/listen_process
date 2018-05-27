@@ -1,0 +1,6 @@
+if [ $# -eq 1 ]
+then
+        sudo lsof -i :$1
+else
+        sudo lsof -i
+fi
