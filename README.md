@@ -3,8 +3,8 @@ Combinaison of binary utilities
 
 ## Table of Contents
 
-* [Kill_process](#Kill_process)
-* [Exemple](#Exemple)
+* [Process](#Process) To kill a process
+* [Exemple](#Exemple) To a exemple
 
 
 ## Kill_process
