@@ -5,6 +5,7 @@ Combinaison of binary utilities
 
 * [Listen a process](#listen-a-process)
 * [Kill a process](#kill-a-process)
+* [Get your contribution of a git repository](#contribution-git)
 
 ## Listen a process
 To listen all process OR just one
@@ -64,4 +65,34 @@ chmod +x kill_process (carefull)
 4) Execute "sudo kill_process PORT_NUMBER" :
 ```
 sudo kill_process 80
+```
+
+## Get your contribution of a git repository
+Create contribution file (/script/contribution.sh) script to get your contribution of a git repository
+
+1) Run:
+```
+nano contribution.sh
+```
+
+2) fill :
+```
+if [ $# -eq 1 ]
+then
+        git log --author=$1 --pretty=tformat: --numstat | awk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf "added lines: %s, removed lines: %s, total lines: %s\n", add, subs, loc }' - > logs.txt
+        cat logs.txt
+else
+        echo "ERROR: you should pass username at argument"
+fi
+
+```
+
+3) Run :
+```
+chmod +x contribution.sh
+```
+
+4) Now you can see your contribution with:
+```
+./contribution.sh your_git_username
 ```
